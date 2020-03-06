@@ -3,8 +3,11 @@
 An example to test Databricks delta.
 
 ### Example test setup
+
 In a 4-core hyperthreaded laptop
+
 Target table: 200000 rows
+
 Each update batch: update 9000 rows, insert 1000 rows, delete 1000 rows
 
 ### Test result
