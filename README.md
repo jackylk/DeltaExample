@@ -11,7 +11,7 @@ Target table: 200000 rows
 Each update batch: update 9000 rows, insert 1000 rows, delete 1000 rows
 
 ### Test result
-
+```
 start CDC example using delta solution
 generating target table...done! 16.02 s
 applying change batch1...done! 9.44 s
@@ -26,4 +26,4 @@ applying change batch9...done! 6.85 s
 applying change batch10...done! 6.26 s
 total update takes 70.42 s
 total query takes 1.38 s
-
+```
